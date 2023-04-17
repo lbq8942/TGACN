@@ -1,6 +1,4 @@
 # TGACN
-code for paper "Link-aware link prediction over temporal graph by pattern recognition"
-
 This repo provides a reference implementation of TGACN as described in paper "Link-aware link prediction over temporal graph by pattern recognition"
 
 before you run the following command, please  replace "pro_path" in  utils/args.py as your own project path.

@@ -1,7 +1,9 @@
 # TGACN
 This repo provides a reference implementation of TGACN as described in paper "Link-aware link prediction over temporal graph by pattern recognition"
 
-before you run the following command, please  replace "pro_path" in  utils/args.py as your own project path.
+Before you run the following command, 
+1. download the [datasets](https://drive.google.com/drive/folders/1nqnEXxGe7RBTyFl9CLTfLSzdpI_uFG-X?usp=share_link) and let this folder under the root directory of this project. Name this folder as "data".
+2. replace "pro_path" in  utils/args.py as your own project path.
 ```
 python  main.py  --data uci  --gpu 1   --recent 6  --para 0 --patience 3  --model 0   --trace_step 35 --use_timec;  
 python  main.py  --data social  --gpu 1   --recent 6   --para 0  --patience 3   --model 0   --trace_step 35 --use_timec; 
